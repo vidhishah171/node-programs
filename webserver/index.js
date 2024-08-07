@@ -1,27 +1,19 @@
-const http = require("http");
-const fs = require("fs");
+const express = require("express");
 
-const myServer = http.createServer((req, res) => {
-    
-    fs.appendFile("log.txt", `${new Date().toLocaleTimeString()}: ${req.url} Request Received.\n`, (err, data) => {
-        console.log()
-    })
-    // console.log(req.url)
-    // console.log("Request received.")
-    switch(req.url) {
-        case "/":
-            res.end("Home Page");
-            break;
-        case "/about":
-            res.end("About Page");
-            break;
-        case "/contact":
-            res.end("Contact Us")
-            break;
-        default:
-            res.end("404 Not found");
-    }
-    // res.end("Hello There Again.")
-});
+const app = express();
 
-myServer.listen(8000)
+app.get("/", (req, res) => {
+    res.end("Home Page Get Method");
+})
+
+app.post("/", (req, res) => {
+    res.end("Home Page Post Method");
+})
+
+app.get("/about", (req, res) => {
+    console.log(`About Page Get Method Id:  ${req.query.id}, and name:  ${req.query.name}`)
+    res.end(`About Page Get Method Id:  ${req.query.id}, and name:  ${req.query.name}`);
+    //database 
+})
+
+app.listen(8000, () =>  console.log("Webserver started here with express."))

@@ -1,14 +1,12 @@
-Tue Aug 06 2024: / Request Received.
-10:13:14 pm: / Request Received.
-10:14:27 pm: /about Request Received.
-10:14:28 pm: /favicon.ico Request Received.
-10:14:51 pm: /about Request Received.
-10:15:14 pm: /about Request Received.
-10:15:41 pm: /about Request Received.
-10:15:41 pm: /favicon.ico Request Received.
-10:15:52 pm: / Request Received.
-10:15:57 pm: /contact Request Received.
-10:15:57 pm: /favicon.ico Request Received.
-10:16:03 pm: /about Request Received.
-10:16:04 pm: /asgslk Request Received.
-10:16:04 pm: /favicon.ico Request Received.
+9:10:14 pm: / Request Received.
+9:34:19 pm: /about Request Received.
+9:34:31 pm: /about?name=Vidhi Request Received.
+9:35:22 pm: /about?name=Vidhi&id=5 Request Received.
+9:39:38 pm: /about?name=Vidhi&id=5 Request Received.
+9:40:53 pm: /about?name=Vidhi&id=5 Request Received.
+9:42:15 pm: /about?name=Vidhi&id=5 Request Received.
+9:43:12 pm: /about?name=Vidhi&id=5 Request Received.
+9:55:26 pm: GET /about?name=Vidhi&id=5 Request Received.
+9:55:33 pm: GET /about?name=Vidhi&id=5 Request Received.
+10:05:00 pm: GET /about?name=Vidhi&id=5 Request Received.
+10:05:06 pm: GET / Request Received.

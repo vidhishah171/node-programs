@@ -1,0 +1,7 @@
+5 types
+GET: READING, GETTING, FETCHING THE DATA FROM SERVER
+POST: To create new data, when you want to send and mutate some data in server, to add data or change data, html forms, submit data
+PUT: To update the object, data, entity
+DELETE: To delete the data
+PATCH: To update a particular field or small pinch of data from object
+
