@@ -1,0 +1,22 @@
+For users - JSON
+
+GET /users - HTML document render return
+GET api/users - Read data of all users - json
+
+GET api/users/:id - Read user data by id
+GET api/users/2
+
+
+dynamic path parameters, path variable : api/users/:id
+:id - variable | dynamic
+
+
+POST api/users - Create a new users
+
+DELETE api/users/1 - Delete particular user
+
+PATCH api/users/2 - Update user field
+
+PUT api/users/3 - Update user object
+
+mockaroo.com

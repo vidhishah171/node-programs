@@ -10,3 +10,21 @@
 9:55:33 pm: GET /about?name=Vidhi&id=5 Request Received.
 10:05:00 pm: GET /about?name=Vidhi&id=5 Request Received.
 10:05:06 pm: GET / Request Received.
+
+4.19.2
+
+Version
+1swt part: 4
+Second part: 19
+third part: 2
+
+4.19.2, 4.19.3 - Minor Changes
+Minor changes, minor bugs fixes, security patch
+
+Second part: Recommended Changes, New enhancements, new features,Security voilation fixes
+1.0.0
+Minor changes 1.0.1, 1.0.2, 1.0.3
+New Features, Issues Fix, Security issues 1.1.0, 1.1.1, 1.1.2...
+
+First part: Major Changes / Breakable changes
+2.0.0, 2.0.1

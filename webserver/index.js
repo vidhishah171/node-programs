@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.end("Home Page Get Method");
+    res.end("Home page GET Method");
 })
 
 app.post("/", (req, res) => {
@@ -15,5 +15,7 @@ app.get("/about", (req, res) => {
     res.end(`About Page Get Method Id:  ${req.query.id}, and name:  ${req.query.name}`);
     //database 
 })
+
+app.delete("/", (req,res) => {})
 
 app.listen(8000, () =>  console.log("Webserver started here with express."))
