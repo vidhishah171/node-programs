@@ -1,0 +1,23 @@
+Types of parameters (Or types of data we can send with a request)
+
+1. Path Parameters (Path Variable)
+2. Query Parameters (Query Params, Request Params)
+3. Request Body (Payload, hidden Data)
+
+1. Path parameters: 
+Suppose i want to send id and name with the request, and id and name would never be null.
+
+localhost:8000/users/{id}/{name}
+Postman: localhost:8000/users/5/janki
+
+localhost:8000/books/vidhi/abhisha
+
+Code: api.get("/users/:author/:publisher")
+need to paas the parameter names in the path in Code
+
+2. Query parameters:
+
+Postman: localhost:8000/users?author=vidhi&publisher=abhisha
+
+Here, we are already providing parameters name in the postman api call itself, 
+so we don't need to paas the parameters names in the api path in code.
