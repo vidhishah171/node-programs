@@ -8,3 +8,16 @@ Using that Schema we'll create a Model.
 
 Schema - Model
 Using that Model we'll do the CRUD operations.
+
+
+MVC Structure: 
+Model View  Controller
+
+Model = Model, Schema
+
+View = To show response in UI
+
+Controller = Logic
+
+Controller manipulates Model, Model updates View
+
